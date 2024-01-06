@@ -86,7 +86,9 @@ function getResult() {
   let displayElement = getDisplay();
 
   switch (operation) {
-    // case '+':
+
+
+    // case '+': (TESTING MICROPHONE)
     //   console.log(isResult);
     //   if (isResult == false) {
     //     result = value1 + value2;
@@ -126,20 +128,20 @@ function getResult() {
   //console.log(`Before: Value1 is: ${value1}, operation: ${operation}, 
   //Value2 is: ${value2}, result is: ${result}`);
 }
+// TESTING MICROPHONE
+// function resultAgain() {
 
-function resultAgain() {
+//   let displayElement = getDisplay();
 
-  let displayElement = getDisplay();
+//   let result = 0;
 
-  let result = 0;
+//   if (getDisplay()) {
+//     value1 = result;
+//     value2  = value2
+//     result = value1 + value2;
+//   }
+//   //console.log(result);
 
-  if (getDisplay()) {
-    value1 = result;
-    value2  = value2
-    result = value1 + value2;
-  }
-  //console.log(result);
-
-  console.log(`After: Value1 is: ${value1}, operation: ${operation}, 
-  Value2 is: ${value2}, result is: ${result}`);
-}
+//   console.log(`After: Value1 is: ${value1}, operation: ${operation}, 
+//   Value2 is: ${value2}, result is: ${result}`);
+// }
