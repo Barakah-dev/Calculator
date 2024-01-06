@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="display">0</div>
+    <div class="btn-container">
+      <div class="btn-row">
+        <button class="btn btn-yellow" onclick="arithmeticOperation('/')">/</button>
+        <button class="btn btn-black">%</button>
+        <button class="btn btn-black">+/-</button>
+        <button class="btn btn-ac btn-black" onclick="clearDisplay()">AC</button>
+      </div>
+      <div class="btn-row">
+        <button class="btn btn-yellow" onclick="arithmeticOperation('*')">x</button>
+        <button class="btn" onclick="numClick(9)">9</button>
+        <button class="btn" onclick="numClick(8)">8</button>
+        <button class="btn" onclick="numClick(7)">7</button>
+      </div>
+      <div class="btn-row">
+        <button class="btn btn-yellow" onclick="arithmeticOperation('-')">-</button>
+        <button class="btn" onclick="numClick(6)">6</button>
+        <button class="btn" onclick="numClick(5)">5</button>
+        <button class="btn" onclick="numClick(4)">4</button>
+      </div>
+      <div class="btn-row">
+        <button class="btn btn-yellow" onclick="arithmeticOperation('+')">+</button>
+        <button class="btn" onclick="numClick(3)">3</button>
+        <button class="btn" onclick="numClick(2)">2</button>
+        <button class="btn" onclick="numClick(1)">1</button>
+      </div>
+      <div class="btn-row">
+        <button class="btn btn-yellow btn-br-br-5" onclick="getResult()">=</button>
+        <button class="btn">.</button>
+        <button class=" btn btn-0 btn-br-bl-5" onclick="numClick(0)">0</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
